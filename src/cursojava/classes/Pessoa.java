@@ -1,5 +1,6 @@
 package cursojava.classes;
 
+/* SuperClass - Atributos comuns entre todas as SubClasses*/
 public class Pessoa {
 	
 	protected String nome;
