@@ -1,7 +1,7 @@
 package cursojava.classes;
 
 /* SuperClass - Atributos comuns entre todas as SubClasses*/
-public class Pessoa {
+public abstract class Pessoa {
 	
 	protected String nome;
 	protected int idade;
@@ -55,6 +55,10 @@ public class Pessoa {
 		this.nomePai = nomePai;
 	}
 	
+	/*Métodos*/
 	
+	public boolean pessoaMaiorIdade() {
+		return idade >= 18;
+	}
 
 }
